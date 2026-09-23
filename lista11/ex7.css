@@ -1,0 +1,11 @@
+.meio{
+    text-align:center;
+    background-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+}
+
+h1, label{
+    color: aliceblue;
+}
