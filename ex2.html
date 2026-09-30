@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="ex2.css">
+</head>
+<body>
+
+    <div class="meio">
+
+        <h2>Estacionamento 🚗</h2>
+
+        <form action="ex2.php" method="post">
+
+            <label>Nome do motorista:</label>
+            <input type="text" name="motorista" required>
+
+            <br><br>
+
+            <label>Tipo de veículo:</label>
+            <select name="veiculo" required>
+                <option value="moto">Moto</option>
+                <option value="carro">Carro</option>
+                <option value="caminhonete">Caminhonete</option>
+            </select>
+
+            <br><br>
+
+            <label>Quantidade de horas estacionado:</label>
+            <input type="number" name="horas" required>
+
+            <br><br>
+
+            <button>🚗 Calcular 🚗</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

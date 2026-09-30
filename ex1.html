@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abastecendo o carro</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+
+    <div class="meio">
+
+        <h2>Abastecendo o carro ⛽</h2>
+
+        <form action="ex1.php" method="post">
+
+            <label>Tipo de combustível:</label>
+            <select name="combustivel" required>
+                <option value="gasolina">Gasolina</option>
+                <option value="etanol">Etanol</option>
+                <option value="diesel">Diesel</option>
+            </select>
+
+            <br><br>
+
+            <label>Quantidade de litros:</label>
+            <input type="number" name="litros" required>
+
+            <br><br>
+
+            <button>⛽ Calcular ⛽</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
