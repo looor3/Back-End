@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musik - Especialista em música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <img src="logomusik.png" width="520" alt="Musik Logo">
+
+        <h2>🎶Especialista em músicas🎶</h2>
+
+        <p><strong>Responda e descubra o que combina com você!</strong><br>𖦹</p>
+        <hr>
+        <br><br>
+        <form action="processa.php" method="POST">
+
+            <div class="form-group">
+                <label>Qual seu gênero favorito?</label>
+
+                <select name="genero" required>
+                    <option value="">Selecione...</option>
+                    <option value="rock">Rock</option>
+                    <option value="mpb">MPB</option>
+                    <option value="funk">Funk</option>
+                    <option value="pop">Pop</option>
+                    <option value="sertanejo">Sertanejo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Música animada ou melancólica?</label>
+
+                <select name="tipo" required>
+                    <option value="">Selecione...</option>
+                    <option value="ani">Animada</option>
+                    <option value="mel">Melancólica</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Antigas ou novas?</label>
+
+                <select name="epoca" required>
+                    <option value="">Selecione...</option>
+                    <option value="novas">Novas</option>
+                    <option value="antig">Antigas</option>
+                </select>
+            </div>
+
+            <button type="submit">Recomendar</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
