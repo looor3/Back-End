@@ -1,0 +1,35 @@
+
+a {
+  color: #e2bb0f; 
+  text-decoration: none;
+  font-family: calibri;
+  font-size: 30px;
+}
+h1{
+    background-color: #c57eff;
+    max-width: 1900px;
+     margin: 0 auto;
+     padding: 20px;
+     font-family: calibri;     
+}
+h2{
+    color: #540099;
+    font-family: calibri;
+}
+h3{
+     color: #540099;
+     font-family: calibri;
+}
+.container {
+     background-color: #5f03aa;
+     max-width: 20000px;
+     margin: 0 auto;
+     padding: 20px;
+}
+.img-banner{
+     border:none;
+     max-width: 1900;
+}
+.categ{
+     padding: 20;
+}
